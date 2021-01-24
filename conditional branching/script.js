@@ -6,7 +6,7 @@ let alertMsg;
 if (userInput == "ECMAScript") {
     alertMsg = "Right!";
 } else {
-    alertMsg = "Didn\'t know? ECMAScript!";
+    alertMsg = "Didn't know? ECMAScript!";
 }
 alert(alertMsg);
 
