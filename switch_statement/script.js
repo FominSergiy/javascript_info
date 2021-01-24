@@ -1,3 +1,5 @@
+'use strict';
+
 //TODO Rewrite the "switch" into an "if"
 // switch (browser) {
 //     case 'Edge':

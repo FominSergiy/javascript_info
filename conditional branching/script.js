@@ -1,3 +1,5 @@
+'use strict';
+
 //TODO The name of JavaScript
 
 let userInput = prompt("The name of JavaScript (be case sensetive)", "");

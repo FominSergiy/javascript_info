@@ -1,3 +1,5 @@
+'use strict';
+
 // TODO Comparisons
 
 5 > 4 //? True

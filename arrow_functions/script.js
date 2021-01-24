@@ -1,3 +1,5 @@
+'use strict';
+
 //TODO Rewrite with arrow functions
 
 function ask(question, yes, no) {

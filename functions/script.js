@@ -1,3 +1,4 @@
+'use strict';
 
 //TODO Rewrite the function using '?' or '||'
 // function checkAge(age) {

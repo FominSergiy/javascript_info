@@ -1,3 +1,5 @@
+'use strict';
+
 /*
 for loop can be assigned a label and then used to break it from
 an inner loop
@@ -25,7 +27,7 @@ for (begin ; condition ; increment) {}
 let numList = [];
 //TODO Output even numbers in the loop
 for (let i = 0; i < 11; i++) {
-    if (i % 2 == 0) numList.push(i);
+  if (i % 2 == 0) numList.push(i);
 }
 alert(numList);
 
@@ -34,8 +36,8 @@ alert(numList);
 let enteredNum;
 
 do {
-    enteredNum = +prompt("Enter a number from 0 to 100", "");
-    if (!enteredNum) break;
+  enteredNum = +prompt("Enter a number from 0 to 100", "");
+  if (!enteredNum) break;
 
 } while (enteredNum <= 100);
 
@@ -48,8 +50,8 @@ for (let i = 0; i < 3; i++) {
 let i = 0;
 let secNumList = [];
 while (i < 3) {
-    secNumList.push(i);
-    i++;
+  secNumList.push(i);
+  i++;
 }
 alert(`Single Numbers are boing, here is the list! ${secNumList}!`);
 
@@ -58,11 +60,11 @@ let n = +prompt("Enter the end of num range", "");
 
 findPrime: for (i = 2; i <= n; i++) {
 
-    //? for each number in range compare with the rest of numbers
-    for (j = 2; j < i; j++) {
-        // cut the inside loop to the range up to a number in question
-        // if it can be % == 0 then it's not prime, since itself and 1 not in range
-        if (i % j == 0) continue findPrime;
-    }
-    alert(i);
+  //? for each number in range compare with the rest of numbers
+  for (j = 2; j < i; j++) {
+    // cut the inside loop to the range up to a number in question
+    // if it can be % == 0 then it's not prime, since itself and 1 not in range
+    if (i % j == 0) continue findPrime;
+  }
+  alert(i);
 }
