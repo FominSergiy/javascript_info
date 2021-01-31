@@ -1,3 +1,5 @@
+'use strict';
+
 //TODO Basic operators, maths
 
 

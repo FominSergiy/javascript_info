@@ -1,3 +1,5 @@
+'use strict';
+
 //? from now on will be only working with big pieces, omitting small tasks
 
 //TODO Check the login
