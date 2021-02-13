@@ -110,6 +110,8 @@ function factorial(n) {
 
 
 
+
+
 //TODO Output a single-linked list
 let list = {
     value: 1,
@@ -136,7 +138,6 @@ function printListLoop(list) {
     }
 }
 
-
 //recursion
 function printListRecursive(list) {
     if (list.next == null) {
@@ -146,7 +147,18 @@ function printListRecursive(list) {
     }
 }
 
-alert(printListRecursive(list));
+// alert(printListRecursive(list));
 
 //TODO Output a single-linked list in the reverse order 
-//! still todo!
+
+//recursion
+const printListRecursiveOne = (list) => {
+    console.log(list.value);
+
+    if (list.next) {
+        printListRecursiveOne(list.next);
+
+    }
+}
+
+printListRecursiveOne(list);
