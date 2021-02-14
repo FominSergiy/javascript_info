@@ -1,0 +1,4 @@
+This is a particular case of so-called polymorphism – treating arguments differently depending on their type or, in our case depending on the length. The idea does have a use in JavaScript libraries. -  https://javascript.info/function-object
+
+
+

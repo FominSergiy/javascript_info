@@ -8,3 +8,7 @@
 2. https://javascript.info/task/serialize-event-circular
 3. https://javascript.info/task/sort-by-field - check your work there's a question.
 
+------- above complete
+
+1. https://javascript.info/task/counter-inc-dec - why this won't work with arrow function?
+2. https://javascript.info/task/sum-many-brackets - let's do it together
