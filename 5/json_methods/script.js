@@ -16,30 +16,27 @@ const userObj = JSON.parse(userJSON);
 
 let room = {
     number: 23
+    // occupiBy : meetup
 };
 
 let meetup = {
-    title: "Conference",
-    occupiedBy: [{ name: "John" }, { name: "Alice" }],
+    title: "Совещание",
+    occupiedBy: [{ name: "Иванов" }, { name: "Петров" }],
     place: room
+    // self : meetup
 };
 
-// circular references
+// цикличные ссылки
 room.occupiedBy = meetup;
 meetup.self = meetup;
 
-JSON.stringify(meetup, function replacer(key, value) {
-    console.log(`key ${key} and value ${value}`);
-});
-
-// alert(JSON.stringify(meetup, function replacer(key, value) {
-//     console.log(`key ${key} and value ${value}`);
-// }));
-
-/* result should be:
+alert(JSON.stringify(meetup, function replacer(key, value) {
+    return (key != "" && value == meetup) ? undefined : value;
+}));
+/* в результате должно быть:
 {
-  "title":"Conference",
-  "occupiedBy":[{"name":"John"},{"name":"Alice"}],
+  "title":"Совещание",
+  "occupiedBy":[{"name":"Иванов"},{"name":"Петров"}],
   "place":{"number":23}
 }
 */

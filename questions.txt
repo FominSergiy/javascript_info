@@ -6,4 +6,12 @@
 я так понимаю Array.from() находит все атрибуты и тд из памяти с ставит их все по-очереди?
 
 2. https://javascript.info/task/serialize-event-circular
+3. https://javascript.info/task/sort-by-field - check your work there's a question.
 
+------- above complete
+
+1. https://javascript.info/task/counter-inc-dec - why this won't work with arrow function?
+2. https://javascript.info/task/sum-many-brackets - let's do it together
+3. https://javascript.info/settimeout-setinterval - how to debug ?
+4. https://javascript.info/task/spy-decorator - wtf?
+5. https://javascript.info/bind#going-partial-without-context - can we review this in more detail? 
