@@ -12,3 +12,5 @@
 
 1. https://javascript.info/task/counter-inc-dec - why this won't work with arrow function?
 2. https://javascript.info/task/sum-many-brackets - let's do it together
+3. https://javascript.info/settimeout-setinterval - how to debug ?
+4. https://javascript.info/task/spy-decorator - wtf?
